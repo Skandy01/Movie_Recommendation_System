@@ -6,12 +6,17 @@ A Movie Recommendation System, or a movie recommender system, is an ML-based app
 
 ## Types of Recommendation Systems
 
-### Collaborative Filtering: This technique predicts users' interests by collecting preferences from many users. It involves:
+### Collaborative Filtering: 
 
-User-based Collaborative Filtering
-Item-based Collaborative Filtering
+This technique predicts users' interests by collecting preferences from many users. It involves:
 
-### Content-Based Filtering: This technique recommends items similar to those a user liked in the past, based on features of the items.
+1.User-based Collaborative Filtering
+2.Item-based Collaborative Filtering
+
+### Content-Based Filtering: 
+
+This technique recommends items similar to those a user liked in the past, based on features of the items.
+
 
 ## Project Steps
 
@@ -42,13 +47,13 @@ Deploy the recommendation system
 
 ## Performance Metrics
 
-1. Dataset Size:
+1. ### Dataset Size:
 The final merged dataset contains 4803 movies after cleaning and preprocessing.
 
-2.Text Feature Extraction:
+2. ### Text Feature Extraction:
 5000 text features were extracted using CountVectorizer for building the similarity matrix.
 
-3.Recommendation Accuracy:
+3. ### Recommendation Accuracy:
 
 The recommendation system's accuracy was evaluated based on user satisfaction and relevance of the recommendations.
 For example, the system's recommendations for the movie "Avatar" included high-rated, similar movies such as:
@@ -61,8 +66,9 @@ The similarity scores of these recommendations showed a similarity rate of **85-
 Performance Evaluation:
 
 The system demonstrated high accuracy and relevance in its recommendations:
-User Satisfaction Rate: Approximately 88% of the users found the recommendations relevant and satisfactory.
-Processing Time: The recommendation generation process was efficient, with an average processing time of 2.5 seconds per recommendation query.
+
+User Satisfaction Rate: Approximately **88%** of the users found the recommendations relevant and satisfactory.
+Processing Time: The recommendation generation process was efficient, with an average processing time of **2.5 seconds** per recommendation query.
 
 ## Final Results
 
@@ -78,7 +84,7 @@ Processing Time: The recommendation generation process was efficient, with an av
 
 6.ability to work with large datasets, preprocess data, and build accurate recommendation models.
 
-**Highlights**
+## Highlights
 Project: Movie Recommendation System
 Dataset: Merged tmdb_5000_credits.csv and tmdb_5000_movies.csv (4803 movies)
 Techniques Used: Data Cleaning, Preprocessing, Feature Engineering, Collaborative Filtering, Content-Based Filtering
@@ -88,4 +94,5 @@ Similarity Rate: 85-90%
 User Satisfaction Rate: 88%
 Processing Time: 2.5 seconds per query
 
-**Achievements**: Successfully developed and deployed a movie recommendation system with high accuracy and user satisfaction.
+## Achievements: 
+Successfully developed and deployed a movie recommendation system with high accuracy and user satisfaction.
