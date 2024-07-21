@@ -1,45 +1,46 @@
-#Movie Recommendation System
+# Movie Recommendation System
 
-#Introduction
+## Introduction
 
 A Movie Recommendation System, or a movie recommender system, is an ML-based approach to filtering or predicting users' film preferences based on their past choices and behavior. This project aims to implement a movie recommendation system using various techniques and strategies
 
-#Types of Recommendation Systems
+## Types of Recommendation Systems
 
-#Collaborative Filtering: This technique predicts users' interests by collecting preferences from many users. It involves:
+### Collaborative Filtering: This technique predicts users' interests by collecting preferences from many users. It involves:
 
 User-based Collaborative Filtering
 Item-based Collaborative Filtering
 
-#Content-Based Filtering: This technique recommends items similar to those a user liked in the past, based on features of the items.
+### Content-Based Filtering: This technique recommends items similar to those a user liked in the past, based on features of the items.
 
-#Project Steps
+## Project Steps
 
-1. Gathering Data
+1. ### Gathering Data
 Import essential libraries
 Obtain movie datasets with global ratings
 
-2. Data Preparation
+2. ### Data Preparation
 Clean and preprocess the data
 
-3. Data Wrangling
+3. ### Data Wrangling
 Transform and map data into a suitable format
 
-4. Data Analysis
+4. ### Data Analysis
 Create generic recommendations of top-rated movies from the existing dataset
 
-Combine recommendation lists to get a reasonable estimate across the ratings
-5. Model Training
+Combine recommendation lists to get a reasonable estimate across the ratings.
+
+5. ### Model Training
 Train machine learning models using the prepared data
 
-6. Model Testing
+6. ### Model Testing
 Test the trained models to evaluate performance
 
-7. Deployment
+7. ### Deployment
 Deploy the recommendation system
 
 
-#Performance Metrics
+## Performance Metrics
 
 1. Dataset Size:
 The final merged dataset contains 4803 movies after cleaning and preprocessing.
@@ -63,7 +64,7 @@ The system demonstrated high accuracy and relevance in its recommendations:
 User Satisfaction Rate: Approximately 88% of the users found the recommendations relevant and satisfactory.
 Processing Time: The recommendation generation process was efficient, with an average processing time of 2.5 seconds per recommendation query.
 
-#Final Results
+## Final Results
 
 1.Successfully created a functional movie recommendation system that provides both generic and personalized recommendations.
 
